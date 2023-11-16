@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace array_methods
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
-}
+   
+
 
 
 class computer
@@ -20,7 +15,7 @@ class computer
     static void Main()
     {
         int[] oldArray = { 54, 95, 82, 54, 45, 10, 23 };
-        int[] newelement = { 21, 45, 89, 12, 32 };
+        int[] newelement = { 21, 45, 89, 12, 32,454 };
         int[] newArray = new int[oldArray.Length + newelement.Length];
         for (int i = 0; i < oldArray.Length; i++)
         {
@@ -46,6 +41,6 @@ class computer
     }
 
 }
-
+}
 
 
